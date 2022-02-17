@@ -18,7 +18,7 @@ void printArray(int array[])
 //	int array[5] = { 9, 7, 5, 3, 1 };
 //
 //	//cout << (int)array << endl;				// array를 출력하면 주소 값이 출력
-//	//cout << (int)&(array[0]) << endl;		// array와 array[0]의 주소는 같고
+//	//cout << (int)&(array[0]) << endl;			// array와 array[0]의 주소는 같고
 //	//cout << (int) & (array[1]) << endl;		// 그 이후는 4씩 증가
 //	//cout << *array << endl;					// *array를 출력하면 array[0]가 출력
 //
