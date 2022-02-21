@@ -38,37 +38,37 @@ void printElement(vector<int> &arr)
 
 }
 
-//int main()
-//{
-//	//int x = 5;
-//
-//	//cout << x << " " << &x << endl;
-//
-//	//addOne(x);
-//	//
-//	//cout << x << " " << &x << endl;
-//
-//	//// Reference에 의한 호출은 주소가 동일하고, 값도 변함
-//
-//
-//	//double sin(0.0);
-//	//double cos(0.0);
-//
-//	//getSinCos(30, sin, cos);
-//
-//	//cout << sin << " " << cos << endl;
-//
-//
-//	//int x = 5;
-//	//int* ptr = &x;
-//
-//	//foo(ptr);
-//
-//	//cout << ptr << " " << &ptr << endl;
-//
-//
-//	/*int arr[] = { 1,2,3,4 };*/
-//	vector<int> arr{ 1,2,3,4 };
-//	printElement(arr);
-//
-//}
+int main()
+{
+	//int x = 5;
+
+	//cout << x << " " << &x << endl;
+
+	//addOne(x);
+	//
+	//cout << x << " " << &x << endl;
+
+	//// Reference에 의한 호출은 주소가 동일하고, 값도 변함
+
+
+	//double sin(0.0);
+	//double cos(0.0);
+
+	//getSinCos(30, sin, cos);
+
+	//cout << sin << " " << cos << endl;
+
+
+	//int x = 5;
+	//int* ptr = &x;
+
+	//foo(ptr);
+
+	//cout << ptr << " " << &ptr << endl;
+
+
+	/*int arr[] = { 1,2,3,4 };*/
+	//vector<int> arr{ 1,2,3,4 };
+	//printElement(arr);
+
+}

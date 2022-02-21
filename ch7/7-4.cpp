@@ -12,14 +12,14 @@ void foo(int *ptr)				// 이렇게 하면 ptr 주소의 값만 주는 격
 }
 
 
-int main()
-{
-	int value = 5;
-	int* ptr = &value;
-
-	cout << value << " " << &value << " " << &ptr << endl;
-
-	foo(ptr);
-	foo(&value);
-	// foo(5)
-}
+//int main()
+//{
+//	int value = 5;
+//	int* ptr = &value;
+//
+//	cout << value << " " << &value << " " << &ptr << endl;
+//
+//	foo(ptr);
+//	foo(&value);
+//	// foo(5)
+//}
