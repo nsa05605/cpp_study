@@ -20,7 +20,7 @@ void printLength(array<int, 5> my_arr)
 //	//my_arr = { 0,1,2, };
 //
 //	//cout << my_arr[1] << endl;
-//	//cout << my_arr.at(1) << endl;						// at을 쓰면 10 자리에 값이 있는지 검사를 진행
+//	//cout << my_arr.at(1) << endl;						// at을 쓰면 1 자리에 값이 있는지 검사를 진행
 //
 //	//cout << my_arr.size() << endl;
 //
