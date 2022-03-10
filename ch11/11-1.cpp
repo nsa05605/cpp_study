@@ -13,11 +13,13 @@ protected:
 public:
 	Mother()
 		: m_i(0)
-	{}
+	{
+		cout << "Mother's Default Constructor" << endl;
+	}
 	Mother(const int& i_in)
 		: m_i(i_in)
 	{
-		cout << "Mother Constructor" << endl;
+		cout << "Mother's Constructor" << endl;
 	}
 
 	void setValue(const int& i_in) {

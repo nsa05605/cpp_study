@@ -34,7 +34,7 @@ public:
 		cout << "I'm Derived" << endl;
 	}
 	friend std::ostream& operator << (std::ostream& out, const Derived& d) {
-		cout << static_cast<Base>(d);
+		out << static_cast<Base>(d);
 		out << "This is derived output " << endl;
 		return out;
 	}
