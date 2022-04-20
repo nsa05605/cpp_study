@@ -17,3 +17,19 @@ public:
 		std::cout << m_value << " ";
 	}
 };
+
+template <typename T>
+class Class
+{
+private:
+	T m_value;
+
+public:
+	Class(T value) {
+		m_value = value;
+	}
+	~Class() {}
+	void print() {
+		std::cout << "template typename in Class : " << m_value << " ";
+	}
+};

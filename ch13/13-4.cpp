@@ -31,5 +31,11 @@ int main()
 	nValue.print();
 	dValue.print();
 
+	Class<int> NValue(7);
+	Class<double> DValue(3.5);
+
+	NValue.print();
+	DValue.print();
+
 	return 0;
 }

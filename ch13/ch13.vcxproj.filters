@@ -30,6 +30,12 @@
     <ClCompile Include="Storage.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="13-5.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="13-6.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cents.h">
